@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
     
     <!-- 1. Algemene styling (laadt altijd en op elk apparaat) -->
@@ -25,14 +25,15 @@
 </head>
 <body>
     <header>
-        <img class="logo" src="assets/logo.svg" alt="logo-header">
+        <img class="logo" src="assets/logo.svg" alt="logo-gemeenteniconen">
 
         <nav class="nav">
             <ul>
                 <li> <a href="iconen.html">Iconen</a></li>
                 <li><a href="#Illustraties">Illustraties</a></li>
                 <li><a href="#Doe mee">Doe mee</a></li>
-                <li><a href="#Rechtenvrij">Credits</a></li>
+                <li><a href="#Rechtenvrij">Rechtenvrij</a></li>
+                <li><a href="#credits">Credits</a></li>
                 <li><a class="github" href="https://github.com/OpenGemeenten/Iconenset/">GitHub</a></li>
             </ul>
         </nav>
@@ -42,84 +43,98 @@
         <section class="hero-banner">
             <h1>Iconen en illustraties, open en rechtenvrij, voor elke gemeentelijke website.</h1>
             <p>Een groeiende collectie open, rechtenvrije en toegankelijke iconen en illustraties, speciaal voor Nederlandse gemeenten.</p>
-            <button class="bekijk-iconen" onclick="filterSelection ('bekijk-iconen')">Bekijk iconen</button>
-            <button class="bekijk-illustraties" onclick="filterSelection ('bekijk-illustraties')">Bekijk illustraties</button>
+            <a href="iconen.html">Bekijk iconen</a>
+            <span class="material-symbols-outlined">arrow_forward</span>
+            <a href="#Illustraties"> Bekijk illustraties</a>
+            <span class="material-symbols-outlined">arrow_forward</span>
         </section>
 
        <section class="wat-zoek-je">
             <h2>Wat zoek je?</h2>
             <p>Kies wat je nodig hebt voor je gemeentelijke website.</p>
-            <div class="iconen">
-                <img src="assets/iconenset-overzicht.png" alt="iconenset-overzicht" width="500" height="400">
-                <h3>Iconen</h3>
-                <p>Duidelijke en consistente iconen voor veelgebruikte gemeentelijke onderwerpen en diensten.</p>
-                <li> <a href="iconen.html">Bekijk iconen</a></li>
-                <span class="material-symbols-outlined">arrow_forward</span>
-            </div>
+            <div class="keuze-kaarten">    
+                <div class="iconen-kaart">
+                    <img src="assets/iconenset-overzicht.png" alt="iconenset-overzicht" width="500" height="400">
+                    <h3>Iconen</h3>
+                    <p>Duidelijke en consistente iconen voor veelgebruikte gemeentelijke onderwerpen en diensten.</p>
+                    <a href="iconen.html">Bekijk iconen</a>
+                    <span class="material-symbols-outlined">arrow_forward</span>
+                </div>
 
-            <div class="illustraties">
-                <img src="assets/illustraties.jpg" alt="illustraties-overzicht" width="700" height="400">
-                <h3>Illustraties</h3>
-                <p>Illustraties voor uitleg en communicatie, aanpasbaar aan de huisstijl van je organisatie.</p>
-                <li><a href="#illustraties">Illustraties</a></li>
-                <span class="material-symbols-outlined">arrow_forward</span>
+                <div class="illustratie-kaart">
+                    <img src="assets/illustraties.jpg" alt="illustraties-overzicht" width="700" height="400">
+                    <h3>Illustraties</h3>
+                    <p>Illustraties voor uitleg en communicatie, aanpasbaar aan de huisstijl van je organisatie.</p>
+                    <a href="#illustraties">Bekijk illustraties</a>
+                    <span class="material-symbols-outlined">arrow_forward</span>
+                </div>
             </div>
         </section>
 
         <section class="waarom-gemeenteiconen">
-            <h3>Waarom gemeenteniconen?</h3>
+            <h2>Waarom gemeenteniconen?</h2>
             <p>Samen werken aan duidelijke, toegankelijke en herbruikbare digitale dienstverlening.</p>
-            <div class="toegankelijk">
-                <img src="Iconenset-master/Svg/Line/Toegankelijkheid.svg" alt="toegankelijk" width="100" height="100">
-                <h4>Toegankelijk</h4>
-                <p>Duidelijk en bruikbaar voor zoveel mogelijk inwoners.</p>
-            </div>
+            <div class="voordeel-kaarten">
+                <div class="toegankelijk">
+                    <img src="Iconenset-master/Svg/Line/Toegankelijkheid.svg" alt="toegankelijk" width="100" height="100">
+                    <h3>Toegankelijk</h3>
+                    <p>Duidelijk en bruikbaar voor zoveel mogelijk inwoners.</p>
+                </div>
 
-            <div class="open-source">
-                <img src="" alt="open-source" width="100" height="100">
-                <h4>Open source</h4>
-                <p>Vrij te gebruiken, aan te passen en te delen.</p>
-            </div>
+                <div class="open-source">
+                    <img src="" alt="open-source" width="100" height="100">
+                    <h3>Open source</h3>
+                    <p>Vrij te gebruiken, aan te passen en te delen.</p>
+                </div>
 
-            <div class="samenwerken">
-                <img src="" alt="samenwerken" width="100" height="100">
-                <h4>Samenwerken</h4>
-                <p>Ontwikkeld samen met gemeenten en de publieke sector.</p>
-            </div>
+                <div class="samenwerken">
+                    <img src="" alt="samenwerken" width="100" height="100">
+                    <h3>Samenwerken</h3>
+                    <p>Ontwikkeld samen met gemeenten en de publieke sector.</p>
+                </div>
 
-            <div class="betrouwbaar">
-                <img src="" alt="betrouwbaar" width="100" height="100">
-                <h4>Betrouwbaar</h4>
-                <p>Consistente beeldtaal voor gemeentelijke dienstverlening.</p>
+                <div class="betrouwbaar">
+                    <img src="" alt="betrouwbaar" width="100" height="100">
+                    <h3>Betrouwbaar</h3>
+                    <p>Consistente beeldtaal voor gemeentelijke dienstverlening.</p>
+                </div>
             </div>
-
         </section>
     </main>
 
     <footer>
-        <ul class="over-iconen">
+        <div class="over-iconen">
            <img src="assets/logo.svg" alt="logo-footer">
-           <h4>Over de iconen</h4>
-            <p>Deze set is een initiatief van OpenGemeenten en wordt doorlopend aangevuld door gemeenten en overheidsinstanties. Mis je een icoon? Stuur een omschrijving naar hallo@opengemeenten.nl.</p> 
-        </ul>
+           <h3>Over de iconen</h3>
+            <p>Deze set is een initiatief van OpenGemeenten en wordt doorlopend aangevuld door gemeenten en overheidsinstanties. </p> 
+        </div>
+        
+        <div>
+            <h3>Ontdek</h3> 
+                <ul class="ontdek">
+                    <li> <a href="iconen.html">Iconen</a></li>
+                    <li><a href="#Illustraties">Illustraties</a></li>
+                    <li><a href="#Doe mee">Doe mee</a></li>
+                </ul>
+        </div>
 
-        <ul class="gebruik">
-            <h4>Gebruik</h4>
-            <li><a href="https://github.com/OpenGemeenten/Iconenset/">GitHub</a></li>
-            <li> <a href="https://github.com/OpenGemeenten/Iconenset/archive/refs/heads/master.zip"> Download als ZIP</a></li>
-        </ul>
-
-        <ul class="opengemeenten">
-            <h4>OpenGemeenten</h4>
-            <li><a href="https://www.opengemeenten.nl/">opengemeenten.nl</a></li>
-            <li> <a href="https://www.opengemeenten.nl/contact">Contact</a></li>
-            <li> <a href="https://www.gemeenteniconen.nl/rechtenvrij/">Rechtenvrij (CCO)</a></li>
-        </ul>
+        <div>
+            <h3>OpenGemeenten</h3>
+            <ul class="informatie">
+            
+                <li><a href="https://www.opengemeenten.nl/">opengemeenten.nl</a></li>
+                <li><a href="#Rechtenvrij">Rechtenvrij</a></li>
+                <li><a href="#credits">Credits</a></li>
+                <li><a class="github" href="https://github.com/OpenGemeenten/Iconenset/">GitHub</a></li>
+            </ul>
+        </div>
+            
+        <div>
+            <h3>Samen maken we de set beter</h3>
+            <p>Mis je een icoon of heb je een vraag? Laat het ons weten.</p>
+            <p><a href="mailto:hallo@opengemeenten.nl">hallo@opengemeenten.nl</a></p>
+            <p><a href="https://www.opengemeenten.nl/contact">Contact met OpenGemeenten</a></p>
+        </div>
     </footer>
-  
-
-
-
-
 </body>
 </html>
