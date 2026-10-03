@@ -1,0 +1,47 @@
+.nav {
+    display: none;
+}
+
+body {
+    margin: 0;
+    background-color: #F7FBFF;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 12px;
+    background-color: white;
+    border: 1px solid #D5E4F4;
+    border-radius: 20px;
+}
+
+.hero-banner {
+    background-color: #EAF4FF;
+    padding: 24px;
+}
+
+.hamburgermenu {
+    background-color: #EAF4FF;
+    border-radius: 50%;
+    border: none;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+img {
+    max-width: 100%;
+}
