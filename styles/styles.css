@@ -50,7 +50,7 @@ main > section {
 
 .hero-banner {
     background-color: #EAF4FF;
-    padding: 24px;
+    padding: 24px 24px 40px 24px;
 }
 
 .hero-banner h1 {
@@ -108,17 +108,22 @@ h2 {
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
+    margin: 0;
+    margin-bottom: 12px;
 }
 
 /* Wat zoek je */
 .wat-zoek-je {
     background-color: white;
+    padding: 32px 24px 40px 24px;
 }
 
 .wat-zoek-je > p {
     font-size: 14px;
     line-height: 22px;
     color: #5F718C;
+    margin: 0;
+    margin-bottom: 24px;
 }
 
 .keuze-kaarten {
@@ -172,24 +177,65 @@ h2 {
 /* Waarom gemeenteniconen */
 .waarom-gemeenteiconen {
     background-color: #F7FBFF;
+    padding: 32px 24px 40px 24px;
 }
 
 .waarom-gemeenteiconen > p {
     font-size: 14px;
     line-height: normal;
+    margin: 0;
+    margin-bottom: 24px;
+    margin-top: 12px;
+}
+
+.voordeel-kaarten {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.voordeel-kaart {
+    border: 1px solid #D5E4F4;
+    border-radius: 14px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.voordeel-kaart .material-symbols-outlined {
+    background-color: #EAF4FF;
+    border-radius: 50%;
+    border: none;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 18px;
+    font-size: 30px;
 }
 
 .voordeel-kaarten h3 {
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
     text-align: center;
+    margin: 0;
 }
 
 .voordeel-kaarten p {
     font-size: 14px;
-    line-height: normal;
+    line-height: 22px;
     text-align: center;
+    margin: 0;
+    margin-top: 8px;
+    margin-bottom: 18px;
+    color: #5F718C;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 /* Footer */
@@ -227,6 +273,11 @@ footer p {
 
     .hero-knoppen a {
         font-size: 14px;
+    }
+
+    .voordeel-kaarten h3 {
+        font-size: 18px;
+        line-height: 26px;
     }
 }
 
