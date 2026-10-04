@@ -56,12 +56,13 @@ main > section {
 .hero-banner h1 {
     font-weight: 700;
     font-size: 32px;
-    line-height: 38px;
+    line-height: 40px;
 }
 
 .hero-banner p {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #455973;
 }
 
 .hero-banner a {
@@ -74,6 +75,8 @@ main > section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 8px;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .hero-knoppen a {
@@ -87,16 +90,6 @@ main > section {
     text-decoration: none;
     border-radius: 12px;
     white-space: nowrap;
-}
-
-@media (min-width: 360px) {
-    .hero-knoppen {
-        gap: 16px;
-    }
-
-    .hero-knoppen a {
-        font-size: 14px;
-    }
 }
  
 .primaire-knop {
@@ -112,37 +105,75 @@ main > section {
 
 /* H2 sectiekoppen */
 h2 {
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 700;
-    line-height: normal;
+    line-height: 32px;
 }
 
-
 /* Wat zoek je */
+.wat-zoek-je {
+    background-color: white;
+}
+
 .wat-zoek-je > p {
     font-size: 14px;
-    line-height: normal;
+    line-height: 22px;
+    color: #5F718C;
+}
+
+.keuze-kaarten {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+}
+
+.keuze-kaart {
+    border: 1px solid #D5E4F4;
+    border-radius: 18px;
+    padding: 24px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+   
 }
 
 .keuze-kaarten h3 {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 700;
-    line-height: normal;
+    line-height: 26px;
+    margin: 0;
 }
 
 .keuze-kaarten p {
     font-size: 14px;
-    line-height: 20px;
+    line-height: 22px;
+    color: #5F718C;
+    margin: 0;
 }
 
 .keuze-kaarten a {
     font-size: 14px;
     font-weight: 600;
-    line-height: normal;
+    line-height: 20px;
+    color: #1769D4;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    text-decoration: none;
 }
 
+.keuze-kaarten .material-symbols-outlined {
+    font-size: 14px;
+    line-height: 20px;
+}
 
 /* Waarom gemeenteniconen */
+.waarom-gemeenteiconen {
+    background-color: #F7FBFF;
+}
+
 .waarom-gemeenteiconen > p {
     font-size: 14px;
     line-height: normal;
@@ -161,19 +192,41 @@ h2 {
     text-align: center;
 }
 
-
 /* Footer */
 footer {
+    background-color: #0B2B50;
     font-size: 15px;
     font-weight: 400;
     line-height: 24px;
 }
 
 footer h3 {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
-    line-height: 24px;
+    line-height: 26px;
+    color: white;
 }
 
+footer p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #C4D6ED;
+}
 
+.logo-footer {
+    filter: invert(100%);
+    
+}
+
+/* Grotere telefoons */
+@media (min-width: 360px) {
+    .hero-knoppen {
+        gap: 16px;
+    }
+
+    .hero-knoppen a {
+        font-size: 14px;
+    }
+}
 
