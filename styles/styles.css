@@ -318,3 +318,32 @@ footer a {
     }
 }
 
+@media (min-width: 768px) {
+    .keuze-kaarten {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .over-iconen, .ontdek-blok, .informatie-blok {
+    margin-bottom: 0;
+}
+    
+}
+
+@media (min-width: 1024px) {
+    .voordeel-kaarten {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        
+    }
+}
+
+
